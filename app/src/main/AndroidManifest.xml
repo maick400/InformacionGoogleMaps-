@@ -15,8 +15,13 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.GoogleMapsEtiquetas"
+        android:theme="@style/Theme.Actividad_Google_Map_Places"
         tools:targetApi="31">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDMmRXHBYOjJyXZruXemR11tl7uiJ2T_Q8"/>
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
